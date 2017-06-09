@@ -25,14 +25,14 @@
               <!-- sidebar menu: : style can be found in sidebar.less -->
               <ul class="sidebar-menu">
                   <li class="header">MAIN NAVIGATION</li>
-                
+
                   <li class="treeview">
-                    <a href="#">
+                    <a href="{{url('Beranda')}}">
                       <i class="fa fa-desktop"></i> <span>Beranda</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="#">
+                    <a href="{{url('dataSiswa')}}">
                       <i class="fa fa-male"></i> <span>Data Siswa</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>

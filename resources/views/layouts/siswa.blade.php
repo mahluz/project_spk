@@ -20,6 +20,20 @@
         <!-- AdminLTE Skins. Choose a skin from the css/skins
              folder instead of downloading all of them to reduce the load. -->
         <link rel="stylesheet" href="{{ url('public/dist/css/skins/_all-skins.min.css')}}">
+        <link href="https://fonts.googleapis.com/css?family=Sansita" rel="stylesheet">
+        <style type="text/css">
+            html, body{
+             width:100%;
+             height:100%;
+             background-color:#fff;
+           font-family: 'Sansita', sans-serif;
+             }
+            .vcenter{
+                display: inline-block;
+                vertical-align: middle;
+                float: none;
+            }
+        </style>
         @yield('style')
     </head>
       <body class="hold-transition skin-blue sidebar-mini">
@@ -42,7 +56,6 @@
 
         </div><!-- ./wrapper -->
 
-        @yield('script')
         <!-- jQuery library -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 
@@ -59,5 +72,6 @@
         <script src="{{ url('public/dist/js/app.min.js') }}"></script>
         <!-- AdminLTE for demo purposes -->
         <script src="{{ url('public/dist/js/demo.js') }}"></script>
+        @yield('script')
     </body>
 </html>
