@@ -47,14 +47,14 @@
                         <td>
                           <a title="Detail" class="btn btn-xs btn-default" href=""><i class="fa fa-search"></i></a>
                           <a title="Edit" class="btn btn-xs btn-default" href=""><i class="fa fa-edit"></i></a>
-                          <a title="Delete" class="btn btn-xs btn-default"  onclick="event.preventDefault();document.getElementById('delete').submit()"><i class="fa fa-close"></i></a>
-                          <form class="" id="detail" action="index.html" method="post">
+                          <a title="Delete" class="btn btn-xs btn-default"  onclick="event.preventDefault();document.getElementById('delete{{$ini->id}}').submit()"><i class="fa fa-close"></i></a>
+                          <form class="" id="detail{{$ini->id}}" action="index.html" method="post">
                             <input type="hidden" name="id" value="{{$ini->id}}">
                           </form>
-                          <form class="" id="edit" action="index.html" method="post">
+                          <form class="" id="edit{{$ini->id}}" action="index.html" method="post">
                             <input type="hidden" name="id" value="{{$ini->id}}">
                           </form>
-                          <form class="" id="delete" action="{{url('dataSiswa/delete')}}" method="post">
+                          <form class="" id="delete{{$ini->id}}" action="{{url('dataSiswa/delete')}}" method="post">
                             <input type="hidden" name="id" value="{{$ini->id}}">
                           </form>
                         </td>
@@ -121,7 +121,9 @@
           </div>
           <div class="form-group">
             <label for="">Prestasi</label>
-            <input type="text" class="form-control" name="prestasi" value="">
+            <input type="text" class="form-control" name="kabupaten" value="" placeholder="jumlah prestasi kabupaten">
+            <input type="text" class="form-control" name="nasional" value="" placeholder="jumlah prestasi nasional">
+            <input type="text" class="form-control" name="internasional" value="" placeholder="jumlah prestasi internasional">
           </div>
           <button type="submit" class="btn btn-success" name="button">Submit</button>
         </form>

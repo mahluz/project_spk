@@ -25,9 +25,13 @@ class CreatePerhitunganDataSiswaTable extends Migration
             $table->double('prestasi_sedikit');
             $table->double('prestasi_sedang');
             $table->double('prestasi_banyak');
-            $table->foreign('data_siswa_id')->references('id')->on('data_siswa')->onDelete('cascade')->onUpdate('cascade');
             $table->timestamps();
             $table->softDeletes();
+            $table->foreign('data_siswa_id')
+                  ->references('id')
+                  ->on('data_siswa')
+                  ->onUpdate('cascade')
+                  ->onDelete('cascade');
         });
     }
 
