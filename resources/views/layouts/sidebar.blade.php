@@ -37,12 +37,17 @@
                     </a>
                   </li>
                   <li class="treeview">
-                    <a href="#">
+                    <a href="{{url('statistik')}}">
                       <i class="fa fa-bar-chart-o"></i> <span>Statistik Data Siswa</span> <i class="fa fa-angle-left pull-right"></i>
                     </a>
                   </li>
+                  <li class="treeview">
+                    <a href="{{url('pencarian')}}">
+                      <i class="fa fa-search"></i> <span>Pencarian Rekomendasi</span> <i class="fa fa-angle-left pull-right"></i>
+                    </a>
+                  </li>
                   <li class="">
-                    <a href="{{url('/profile')}}">
+                    <a href="">
                       <i class="fa fa-user"></i>
                        <span>Profile</span>
                     </a>

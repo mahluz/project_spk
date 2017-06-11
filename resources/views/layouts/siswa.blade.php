@@ -49,9 +49,9 @@
           </div><!-- /.content-wrapper -->
           <footer class="main-footer">
             <div class="pull-right hidden-xs">
-              <b>Laravel</b> 5.2
+              <b>Laravel</b> 5.4
             </div>
-            <strong>Copyright &copy; 2016 <a href="">SPK</a>.</strong> All rights reserved.
+            <strong>Copyright &copy; 2017 <a href="">SPK Zulham Azwar Achmad</a>.</strong> All rights reserved.
           </footer>
 
         </div><!-- ./wrapper -->

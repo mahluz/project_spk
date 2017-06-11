@@ -131,8 +131,9 @@
 	                                </div>
 	                                <div class="carousel-desc">
 
-	                                    <h2>Selamat Datang di Web Sistem Pengambilan Keputusan Mahasiswa Berprestasi</h2>
-	                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+	                                    <h2>Selamat Datang di Web Sistem Pendukung Keputusan Pemilihan  Mahasiswa Berprestasi Jurusan Teknik Elektro</h2>
+
+	                                    <p></p>
 
 	                                </div>
 	                            </div>
@@ -148,7 +149,7 @@
 
 	                                    <h2>Tentang SPK</h2>
 
-	                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+	                                    <p>Sistem pendukung keputusan adalah sistem yang mampu memberikan kemampuan pemecahan masalah maupun kemampun pengkomunikasian untuk masalah dengan kondisi semi terstruktur dan tidak terstruktur. Sistem pendukung keputusan ini digunakan untuk menentukan mahasiswa berprestasi Jurusan Teknik Elektro berdasarkan 3 kriteria yang sudah ditentukan yaitu berdasrkan IPK, TOEFL dan Prestasi yang diperoleh mahasiswa </p>
 
 	                                </div>
 	                            </div>
@@ -167,8 +168,18 @@
 	                                <div class="col-md-6 text-left">
 	                                    <div class="carousel-desc">
 
-	                                        <h2>How to ?</h2>
-	                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis elit ipsum, scelerisque non semper eu, aliquet vel odio. Sed auctor id purus nec tristique. Donec euismod, urna vel dapibus tristique, dolor arcu ultrices lectus, nec pulvinar est turpis sit amet felis. Duis interdum purus quam, vitae cursus erat ornare at. Donec congue mi a ipsum tincidunt, imperdiet vehicula odio rutrum. Nam porta vulputate magna, id pretium lectus iaculis eu. Ut ut viverra libero.</p>
+                                        <h2>Cara Penggunaan ?</h2>
+                                        <p>Cara menggunakan Sistem Pendukung Keputusan Pemilihan Mahasiswa Berprestasi :
+                                        </p>
+
+                                        <ul style="list-style-type:square">
+                                          <li>Input data siswa</li>
+                                          <li>Input IPK (0 - 4.00)</li>
+                                          <li>Input TOEFL (0-600)</li>
+                                          <li>Input Prestasi</li>
+                                          <li>Untuk pencarian Rekomendasi masukan Rule sesuai yang diinginkan</li>
+                                          <li>Pilih Statistik Data siswa jika ingin melihat berdasarkan masing-masing kriteria</li>
+                                        </ul>
 
 	                                    </div>
 	                                </div>
